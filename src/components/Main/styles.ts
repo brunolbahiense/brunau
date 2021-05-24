@@ -34,6 +34,6 @@ export const Illustration = styled.img`
 
 export const Box = styled.div`
   background-color: yellow;
-  padding: 10rem;
+  padding: 20px;
   border-radius: 20px;
 `
