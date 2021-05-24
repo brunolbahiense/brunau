@@ -26,6 +26,11 @@ export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 900;
 `
+export const Note = styled.h3`
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+`
 
 export const Illustration = styled.img`
   margin-top: 3rem;
@@ -36,4 +41,5 @@ export const Box = styled.div`
   background-color: yellow;
   padding: 20px;
   border-radius: 20px;
+  margin-bottom: 20px;
 `
