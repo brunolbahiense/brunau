@@ -17,6 +17,12 @@ export const Logo = styled.img`
   margin-bottom: 2rem;
   border-radius: 10px;
 `
+export const DescriptionImg = styled.img`
+  width: 70rem;
+`
+export const TwitchImg = styled.img`
+  width: 25rem;
+`
 
 export const Title = styled.h1`
   font-size: 2.5rem;
@@ -28,21 +34,14 @@ export const Description = styled.h2`
   background-color: yellow;
   padding: 20px;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 `
 export const Note = styled.h3`
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
 `
 export const Link = styled.a`
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 5px;
   text-decoration: none;
-  color: #eee;
-  background-color: #9147ff;
-  padding: 15px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px #3a1a3a;
+  padding: 10px;
   margin-top: 10px;
 `
