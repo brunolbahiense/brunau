@@ -3,7 +3,9 @@ import * as S from './styles'
 const Main = () => (
   <S.Wrapper>
     <S.Logo src="/img/logo.jpg" />
-    <S.DescriptionImg src="/img/total.svg" />
+    <S.Description>
+      Total de dias de Brunau SEM apertar a mente de alguém: 0
+    </S.Description>
     <S.Note>
       SiM eSsE sItE tA fEiO <br />
       SiM fOi PrOpOsItAl <br />
