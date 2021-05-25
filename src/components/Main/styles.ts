@@ -14,14 +14,14 @@ export const Wrapper = styled.main`
 
 export const Logo = styled.img`
   width: 25rem;
-  margin-bottom: 2rem;
+  margin: 2rem;
   border-radius: 10px;
 `
 export const DescriptionImg = styled.img`
-  width: 70rem;
+  width: 60rem;
 `
 export const TwitchImg = styled.img`
-  width: 25rem;
+  width: 20rem;
 `
 
 export const Title = styled.h1`
@@ -29,15 +29,10 @@ export const Title = styled.h1`
 `
 
 export const Description = styled.h2`
-  font-size: 2rem;
-  font-weight: 900;
-  background-color: yellow;
-  padding: 20px;
-  border-radius: 20px;
   margin-bottom: 5px;
 `
 export const Note = styled.h3`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 `
 export const Link = styled.a`
