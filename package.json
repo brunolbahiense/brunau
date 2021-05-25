@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0",
-    "test": "jest",
-    "test:watch": "yarn test --watch"
+    "lint": "eslint src --max-warnings=0"
   },
   "dependencies": {
     "next": "10.0.9",
