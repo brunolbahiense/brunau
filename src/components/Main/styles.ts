@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #000;
   color: red;
   width: 100%;
   height: 100%;
@@ -16,6 +15,7 @@ export const Wrapper = styled.main`
 export const Logo = styled.img`
   width: 25rem;
   margin-bottom: 2rem;
+  border-radius: 10px;
 `
 
 export const Title = styled.h1`
@@ -25,26 +25,25 @@ export const Title = styled.h1`
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 900;
-`
-export const Note = styled.h3`
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 5px;
-`
-export const Link = styled.a`
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 5px;
-`
-
-export const Illustration = styled.img`
-  margin-top: 3rem;
-  width: min(30rem, 100%);
-`
-
-export const Box = styled.div`
   background-color: yellow;
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
+`
+export const Note = styled.h3`
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
+`
+export const Link = styled.a`
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #eee;
+  background-color: #9147ff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #3a1a3a;
+  /*  border: solid 3px #9147ff; */
 `
