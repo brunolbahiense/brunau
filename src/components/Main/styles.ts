@@ -33,7 +33,6 @@ export const Description = styled.h2`
 export const Note = styled.h3`
   font-size: 1.5rem;
   font-weight: 400;
-  margin-top: 10px;
 `
 export const Link = styled.a`
   font-size: 1.5rem;
@@ -45,5 +44,5 @@ export const Link = styled.a`
   padding: 15px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #3a1a3a;
-  /*  border: solid 3px #9147ff; */
+  margin-top: 10px;
 `
