@@ -11,7 +11,7 @@ const Main = () => (
     <S.Note>SiM eSsE sItE tA fEiO</S.Note>
     <S.Note>SiM fOi PrOpOsItAl</S.Note>
     <S.Note>SiM vOcE fOi ApErTaDo</S.Note>
-    <S.Link href="http://twitch.tv/brunau">Oprima Conosco!</S.Link>
+    <S.Link href="http://twitch.tv/pohabrunau">Oprima Conosco!</S.Link>
   </S.Wrapper>
 )
 
