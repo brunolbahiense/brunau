@@ -31,6 +31,11 @@ export const Note = styled.h3`
   font-weight: 400;
   margin-bottom: 5px;
 `
+export const Link = styled.a`
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+`
 
 export const Illustration = styled.img`
   margin-top: 3rem;
