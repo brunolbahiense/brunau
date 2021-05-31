@@ -12,8 +12,12 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/img/icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#06092B" />
-        <meta property="og:image" content="/img/icon.png"/>
         <meta name="description" content="Se prepare, a apertação só está começando!" />
+        <meta property="og:title" content="Brunau" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/img/icon.png"/>
+        <meta property="og:url" content="https://brunau.xyz"/>
+        <meta property="og:description" content="Se prepare, a apertação só está começando!" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
