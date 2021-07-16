@@ -12,15 +12,26 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/img/icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#06092B" />
-        <meta name="description" content="Se prepare, a apertação só está começando!" />
-        <meta property="og:title" content="Brunau" />
+        <meta
+          name="description"
+          content="Se prepare, a apertação só está começando!"
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:image" itemProp="image" content="/img/icon.png"/>
-        <meta property="og:image:width" content="150"/>
-        <meta property="og:image:height" content="150"/>
-        <meta property="og:image:type" content="image/png"/>
-        <meta property="og:url" content="https://brunau.xyz"/>
-        <meta property="og:description" content="Se prepare, a apertação só está começando!" />
+        <meta property="og:url" content="https://www.brunau.xyz/" />
+        <meta property="og:title" content="Brunau" />
+        <meta
+          property="og:description"
+          content="Se prepare, a apertação só está começando!"
+        />
+        <meta property="og:image" content="/img/icon.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.brunau.xyz/" />
+        <meta property="twitter:title" content="Brunau" />
+        <meta
+          property="twitter:description"
+          content="Se prepare, a apertação só está começando!"
+        />
+        <meta property="twitter:image" content="/img/icon.png" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
