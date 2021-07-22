@@ -13,5 +13,5 @@ POHA BRUNAU
 - ✔ Styled Components
 - ✔ Vercel
 
-### 🕹 Follow me at Twitch.com/pohabrunau
+### 🕹 Follow me at Twitch.tv/pohabrunau
 
