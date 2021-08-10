@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  color: red;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -11,11 +10,26 @@ export const Wrapper = styled.main`
   align-items: center;
   justify-content: center;
 `
+export const SAC = styled.button`
+  border-radius: 10px;
+  background-color: #000248;
+  color: #eee;
+  padding: 1em;
+  font-size: 2rem;
+  border: none;
+
+  :hover {
+    background-color: #511664;
+  }
+`
 
 export const Logo = styled.img`
   width: 25rem;
   margin: 2rem;
   border-radius: 10px;
+`
+export const Header = styled.h1`
+  font-size: 3em;
 `
 export const Description = styled.h2`
   font-size: 2rem;
@@ -24,6 +38,7 @@ export const Description = styled.h2`
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
+  color: red;
 `
 export const TwitchImg = styled.img`
   width: 20rem;
@@ -39,6 +54,7 @@ export const Title = styled.h1`
 export const Note = styled.h3`
   font-size: 1.5rem;
   font-weight: 400;
+  color: red;
 `
 export const Link = styled.a`
   text-decoration: none;
