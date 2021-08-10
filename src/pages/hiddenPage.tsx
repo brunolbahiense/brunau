@@ -5,7 +5,7 @@ const Hidden = () => (
   <>
     <S.Wrapper>
       <S.Header>Página secreta</S.Header>
-      <S.Logo src="/img/apertaBluis.jpg" />
+      <S.Logo src="/img/aperta.jpg" />
       <Link href="https://rule34.xxx/">
         <S.SAC>Reclame AQUI!</S.SAC>
       </Link>
