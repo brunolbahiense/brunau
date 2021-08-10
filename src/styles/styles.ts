@@ -27,6 +27,10 @@ export const Description = styled.h2`
 `
 export const TwitchImg = styled.img`
   width: 20rem;
+
+  :hover {
+    opacity: 0.5;
+  }
 `
 
 export const Title = styled.h1`
