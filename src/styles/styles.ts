@@ -26,7 +26,11 @@ export const Logo = styled.img`
   width: 25rem;
   margin: 2rem;
   border-radius: 10px;
+  @media only screen and (max-width: 768px) {
+    width: 20rem;
+  }
 `
+
 export const Header = styled.h1`
   font-size: 3em;
 `
