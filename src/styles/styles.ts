@@ -22,7 +22,6 @@ export const SAC = styled.button`
     background-color: #511664;
   }
 `
-
 export const Logo = styled.img`
   width: 25rem;
   margin: 2rem;
@@ -31,10 +30,15 @@ export const Logo = styled.img`
 export const Header = styled.h1`
   font-size: 3em;
 `
+export const Subtitle = styled.h2`
+  font-size: 2rem;
+  font-weight: 900;
+`
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 900;
   background-color: yellow;
+  background-color: ${(props) => props.theme.redGirl};
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -47,7 +51,6 @@ export const TwitchImg = styled.img`
     opacity: 0.5;
   }
 `
-
 export const Title = styled.h1`
   font-size: 2.5rem;
 `

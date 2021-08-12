@@ -10,7 +10,7 @@ const Main = () => (
     <S.Note>
       SiM eSsE sItE tA fEiO <br />
       SiM fOi PrOpOsItAl <br />
-      SiM vOcE fOi <Link href="/hiddenPage">ApErTaDo</Link>
+      SiM vOcE fOi <Link href="/saco">ApErTaDo</Link>
     </S.Note>
     <S.Link href="http://twitch.tv/pohabrunau">
       <S.TwitchImg src="/img/twitch.svg" />
