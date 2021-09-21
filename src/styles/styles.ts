@@ -68,3 +68,12 @@ export const Link = styled.a`
   padding: 10px;
   margin-top: 10px;
 `
+export const Footer = styled.div`
+  width: 100%;
+  padding: 1rem;
+  background-color: #222;
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+  margin-top: 3em;
+`
